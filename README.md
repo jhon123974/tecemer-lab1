@@ -1,48 +1,35 @@
 # tecemer-lab1
 
-Proyecto de práctica que consume una API pública (chistes aleatorios) para validar un entorno de desarrollo Python profesional: entorno virtual, control de versiones con Git y estructura de proyecto estándar.
+Proyecto de práctica de la Semana 1 del curso Tecnologías Emergentes (ISO46B) — UNCP.
+Consume una API pública de chistes como ejercicio de configuración de entorno.
 
 ## Instalación
 
-1. Clonar el repositorio y ubicarse en la carpeta del proyecto.
-2. Crear el entorno virtual:
-   ```
-   python -m venv .venv
-   ```
-3. Activar el entorno virtual:
-   ```
-   .venv\Scripts\activate      # Windows
-   source .venv/bin/activate   # Linux/macOS
-   ```
-4. Instalar el proyecto en modo editable:
-   ```
-   pip install -e .
-   ```
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -e .
+```
 
 ## Uso
 
-Ejecutar el script principal:
-```
-python -c "from tecemer_lab1 import app"
+```bash
+python -m tecemer_lab1.app
 ```
 
 ## Estructura del repositorio
 
 ```
 tecemer-lab1/
-├── src/
-│   └── tecemer_lab1/
-│       ├── __init__.py
-│       └── app.py
-├── .gitignore
-├── pyproject.toml
-├── requirements.txt
-└── README.md
+├── src/tecemer_lab1/   # código fuente
+├── pyproject.toml      # metadatos y dependencias
+├── README.md
+└── .gitignore
 ```
 
-## Autor y curso
+## Autor
 
-Jhon — Tecnologías Emergentes (ISO46B)
+Curso: Tecnologías Emergentes (ISO46B) — Facultad de Ingeniería de Sistemas, UNCP.
 
 ## Flujo de datos (Semana 2)
 
