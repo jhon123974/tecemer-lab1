@@ -19,15 +19,20 @@ python -m tecemer_lab1.app
 ```
 
 ## Estructura del repositorio
+
+```
 tecemer-lab1/
-├── src/tecemer_lab1/ # código fuente (Semana 1)
-├── numpy_demo.py # Semana 2: fundamentos de NumPy
-├── clima.py # Semana 2: consumo de API Open-Meteo
-├── analisis.py # Semana 2: análisis con Pandas
-├── pyproject.toml # metadatos y dependencias
+├── src/tecemer_lab1/          # código fuente (Semana 1)
+├── numpy_demo.py               # Semana 2: fundamentos de NumPy
+├── clima.py                    # Semana 2: consumo de API Open-Meteo
+├── analisis.py                 # Semana 2: análisis con Pandas
+├── organizador.py               # Semana 3: organizador de archivos
+├── test_organizador.py          # Semana 3: pruebas con pytest
+├── pyproject.toml               # metadatos y dependencias
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 
 ## Flujo de datos — Semana 2
