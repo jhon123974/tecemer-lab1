@@ -53,6 +53,19 @@ python clima.py
 python analisis.py
 ```
 
+
+## Cierre de la Unidad I — Semana 3
+
+Herramienta de automatización: `organizador.py` clasifica y mueve archivos de una carpeta en subcarpetas por tipo (Documentos, Imagenes, Videos, Comprimidos, Otros), con modo de simulación (`--dry-run`) mediante argparse.
+
+Uso:
+```bash
+python organizador.py <carpeta> [--dry-run]
+```
+
+Pruebas: `test_organizador.py` cubre clasificación, movimiento real y modo simulación, usando la fixture `tmp_path` de pytest para no afectar el sistema de archivos real. Ejecutar con: `pytest -v`
+
+
 ## Autor
 
 Curso: Tecnologías Emergentes (ISO46B) — Facultad de Ingeniería de Sistemas, UNCP.
